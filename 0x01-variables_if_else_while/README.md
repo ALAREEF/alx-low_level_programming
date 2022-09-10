@@ -1,1 +1,1 @@
-My second variables readme
+My first shell variable readme
