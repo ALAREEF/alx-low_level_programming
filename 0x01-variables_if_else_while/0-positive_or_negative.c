@@ -4,15 +4,15 @@
 int main(void)
 {
 int n;
-srand(time(0)
-n= rand() - RAND_MAX / 2;
+srand(time(0))
+n= rand() -RAND_MAX /2;
 printf("%d \n", n);
-/*your code goes here/*      
-if (n > 0)
+/* our own code go here */
+if (x > 0)
 {
 printf("The number is positive \n");
 }
-else if (n < 0)
+else if (x < 0)
 {
 printf("The number is negative \n");
 }

@@ -1,1 +1,1 @@
-My first shell variable readme
+My C readme
