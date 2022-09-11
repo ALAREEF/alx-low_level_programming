@@ -1,13 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 int main(void)
 {
-//declare a variable
-char alphabet;
-for (alphabet ='a'; alphabet <=z; alphabet++)
+int n;
+srand(time(0));
+n = rand();
+printf("%d \n", n);
+/* our own code will go here */
+if (n > 5)
 {
-print the value of the variable
-putchar(alphabet);
+printf("The number is greater than 5 \n");
 }
-putchar("\n");
+else if (n = 0)
+{
+printf("the number is zero \n");
+}
+else (n < 6 and not = 0)
+printf("The number is less than 6 and not 0 \n")  
+}
 return (0);
-}
