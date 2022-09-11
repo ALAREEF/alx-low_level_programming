@@ -20,4 +20,3 @@ else (n < 6 and not = 0)
 printf("The number is less than 6 and not 0 \n")  
 }
 return (0);
-}
