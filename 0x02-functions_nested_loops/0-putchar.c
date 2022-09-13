@@ -4,6 +4,6 @@
 */
 int main(void)
 {	
-putchar("_putchar\n")
+("_putchar\n")
 return (0);
 }
