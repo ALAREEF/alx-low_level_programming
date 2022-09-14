@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-int print_alphabet(void);
+#include "main.h"
+
+/**
+ * print_alphabet - Check description
+ * Description: It prints the alphabet in lowercase followed buy a new line
+ * Return: Nothing.
+ */
+void print_alphabet(void)
 {
-//decalre a variable char alphabet;
-char alphabet;
-for(alphabet = 'a'; alphabet <='z'; alphabet++)
-{
-//print the value of the variable
-putchar(alphabet);
-}
-putchar('\n');
-return (0);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
