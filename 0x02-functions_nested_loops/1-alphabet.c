@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-print_alphabet(void);
+int print_alphabet(void);
 {
 //decalre a variable char alphabet;
 char alphabet;
