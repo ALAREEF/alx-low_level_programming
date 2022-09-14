@@ -1,14 +1,15 @@
-#include "main.h"
-/**
-*print_alphabet - print the alphabet
-*
-*Return: Always success 
-*void print_alphabet(void);
-*{
-*int n;
-*for (n = 'a'; n<= 'z'; n++)
-*{_putchar(n);
-*}
-* _putchar("\n");
-*return (0);
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+print_alphabet(void);
+{
+//decalre a variable char alphabet;
+char alphabet;
+for(alphabet = 'a'; alphabet <='z'; alphabet++)
+{
+//print the value of the variable
+putchar(alphabet);
+}
+putchar('\n');
+return (0);
 }
