@@ -20,5 +20,4 @@ int main(void)
 	printf("%d\n", sum);
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
+
