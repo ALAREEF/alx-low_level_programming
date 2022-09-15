@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _2-mul - multiplies two integers
- * @a: int type number 
- * @b: int type number 
- * Description: function multiplies two integers
- * Return: Result 
+ * mul - A function that multiplies 2 integers
+ * @a: int type number
+ * @b: int type number
+ * Return: result of multiplication
  */
 int mul(int a, int b)
 {
-	return ( a * b );
+	return (a * b);
 }
