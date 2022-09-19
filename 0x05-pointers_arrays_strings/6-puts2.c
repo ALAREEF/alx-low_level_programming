@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - A function that prints every other character pf a string,
+ * puts2 - A function that prints every other character of a string,
  * Followed by a new line.
+ * @str: An input string
  * Return: Nothing
  */
 void puts2(char *str)
