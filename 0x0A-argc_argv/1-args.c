@@ -4,7 +4,7 @@
  * main - A program that prints the number of arguments passed into it.
  * @argc: Number of command line arguement
  * @argv: array that contains the program command line arguments.
- *Return: Always 0 (Success)
+ *Return: 0 - success
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
